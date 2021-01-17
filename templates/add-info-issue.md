@@ -30,6 +30,7 @@ It is time to add yourself to the class repo. This is a practice exercise to lea
 - Push the branch to this repository.
 - Go to https://github.com/HackYourFuture/class31/pulls and click on the `create pull request` button
 - Choose your branch in the right dropdown and give the pull request a title, then submit the pull request
+- Link the issue and the pull request together. You can do that by either on the issue or the pull request clicking on the 'Linked pull requests' or 'Linked issues' gear icon and clicking the correct one. By linking them together, the issue will automatically be closed as soon as the pull request is merged in.
 
 That's it! Pull requests are the most common way open source projects work together, someone proposes changes and others can then easily see what they changed. This also allows others to comment on the changes in an easy way. 
 
