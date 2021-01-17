@@ -5,13 +5,14 @@ The idea for the class repositories is to give each class a place to hand in the
 - Create a new *private* repository named `class-CLASSNUMBER`
 - The starting `README.md` for the class is given in [./templates/CLASS_README.md](./templates/CLASS_README.md)
 - Create a new issue for the class mentor to add their information and assign them to it, they can then test out the issue template. The issue template can be found in [./templates/add-info-issue.md](./templates/add-info-issue.md)
-- Add the following labels:
+- Add the following milestones:
   - JavaScript
   - Browsers
   - Using API's
   - NodeJS
   - Databases
   - React
+- Add the following labels:
   - Week1
   - Week2
   - Week3
