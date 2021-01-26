@@ -1,27 +1,78 @@
-# Class repositories
-The idea for the class repositories is to give each class a place to hand in their work, mostly their homework but also anything else you need them to hand in. It gives a nice tracker of the progress of the students and allows mentors 1 place to work from without classes overlapping.
+# Welcome class NUMBER
 
-## Setting up a new class repository
-- Create a new *private* repository named `class-CLASSNUMBER`
-- The starting `README.md` for the class is given in [./templates/CLASS_README.md](./templates/CLASS_README.md)
-- Add a `homework-handin-guide.md` in the class repository. Template is [here](./templates/homework-handin-guide.md)
-- Create a new issue for the class mentor to add their information and assign them to it, they can then test out the issue template. The issue template can be found in [./templates/add-info-issue.md](./templates/add-info-issue.md)
-- Add the following milestones:
-  - JavaScript
-  - Browsers
-  - Using API's
-  - NodeJS
-  - Databases
-  - React
-  - Graduation Project
-- Make sure the class repo only has the following labels:
-  - Week1 (#c1e7ff)
-  - Week2 (#abd2ec)
-  - Week3 (#94bed9)
-  - Week4 (#7faac6)
-  - Week5 (#6996b3)
-  - Project (#BE29A0)
-  - Review in progress (#C2E0C6)
-  - Reviewed with feedback (#F9D0C4)
-  - Needs review (#FEF2C0)
-- Add the following modules list code, replacing the class name with the correct one (TODO: update once class31 is a little further so we have latest version)
+This repository will be your central place to track your progress throughout the curriculum. We will get to know GitHub's issue system, learn a bit about markdown and how the review process works in software development teams. This will also be the place to hand in your homework, it will work quite similar to what you did in Trello, but then using the most commonly used tool in software development teams: GitHub!
+
+## Study links
+- [Curriculum](https://github.com/HackYourFuture/curriculum)
+- [Studybook](https://study.hackyourfuture.net)
+- [How to hand in homework](./homework-handin-guide.md)
+
+## HYF Links
+- [Student manual](https://drive.google.com/file/d/1P-T72skzXP8bDTuIriEOFc5BKr4lPQgr/view?usp=sharing)
+- [Student Code of Conduct](https://docs.google.com/document/d/1jEnvI359TgJiuoOpQqEsNILlpJtpx7s4_rC2OWHX-Wc/edit?usp=sharing)
+- [HYF values](https://www.hackyourfuture.net/values/)
+
+## Modules
+Below are quick links to the different issue views per module.
+
+<h3><a href="https://github.com/HackYourFuture/HTML-CSS" style="display: inline">HTML/CSS/GIT</a></h3>
+
+<h3><a href="https://github.com/HackYourFuture/JavaScript" style="display: inline">JavaScript</a></h3>
+<ul>
+  <li><p>
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3AJavaScript+label%3AWeek3+is%3Aissue">Week 3</a> | 
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3AJavaScript+label%3AWeek4+is%3Aissue">Week 4</a> |
+  </p></li>
+</ul>
+
+<h3><a href="https://github.com/HackYourFuture/Browsers" style="display: inline">Browsers</a></h3>
+<ul>
+  <li><p>
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ABrowsers+label%3AWeek1+is%3Aissue">Week 1</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ABrowsers+label%3AProject+is%3issue">Project</a> |
+  </p></li>
+</ul>
+
+<h3><a href="https://github.com/HackYourFuture/Using-APIS" style="display: inline">Using-APIS</a></h3>
+<ul>
+  <li><p>
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3A'Using+API%27s'+label%3AWeek1+is%3Aissue">Week 1</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3A'Using+API%27s'+label%3AWeek2+is%3Aissue">Week 2</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3A'Using+API%27s'+label%3AProject+is%3Aissue">Week 3</a> |
+  </p></li>
+</ul>
+
+<h3><a href="https://github.com/HackYourFuture/NodeJS" style="display: inline">Using-APIS</a></h3>
+<ul>
+  <li><p>
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ANodeJS+label%3AWeek1+is%3Aissue">Week 1</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ANodeJS+label%3AWeek2+is%3Aissue">Week 2</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ANodeJS+label%3AWeek3+is%3Aissue">Week 3</a> |
+  </p></li>
+</ul>
+
+<h3><a href="https://github.com/HackYourFuture/Databases" style="display: inline">Databases</a></h3>
+<ul>
+  <li><p>
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ADatabases+label%3AWeek1+is%3Aissue">Week 1</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ADatabases+label%3AWeek2+is%3Aissue">Week 2</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3ADatabases+label%3AWeek3+is%3Aissue">Week 3</a> |
+  </p></li>
+</ul>
+
+<h3><a href="https://github.com/HackYourFuture/React" style="display: inline">React</a></h3>
+<ul>
+  <li><p>
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3AReact+label%3AWeek1+is%3Aissue">Week 1</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3AReact+label%3AWeek2+is%3Aissue">Week 2</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3AReact+label%3AWeek3+is%3Aissue">Week 3</a> |
+    <a href="https://github.com/HackYourFuture/classNUMBER/issues?q=milestone%3AReact+label%3AWeek4+is%3Aissue">Week 4</a> |
+  </p></li>
+</ul>
+
+<h3><a href="https://github.com/HackYourFuture/Project" style="display: inline">Graduation Project</a></h3>
+
+## Class list
+
+
+## Class Mentor
