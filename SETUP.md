@@ -5,4 +5,4 @@ The idea for the class repositories is to give each class a place to hand in the
 - Create a new *private* repository named `class-NUMBER` using this as template
 - Edit the `README.md` file to fill in the class number (find/replace NUMBER with the number)
 - Create a new issue for the class mentor to add their information and assign them to it, they can then test out the issue template. The issue template can be found in [./templates/add-info-issue.md](./templates/add-info-issue.md)
-- Invite the students to the private repo before JavaScript module starts. Give them the Triage role so they can create pull requests, but that is it.
+- Invite the students to the private repo before JavaScript module starts. Give them the Write role so they can create pull requests
