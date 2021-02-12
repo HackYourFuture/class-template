@@ -7,7 +7,9 @@ There is a single repository with all of the homework you will be doing for Hack
 - Fork the repository. In the top right of the homework repository page, click on the fork button to fork it to your github. 
 - Set up a remote upstream by issueing the following command: `git remote add upstream https://www.github.com/HackYourFuture/homework`
 
-Once done your own forked repository is what you will be working on, make sure to never push anything to the `main` branch so that you can keep updating your fork to the latest changes. To remind yourself there is a function in github to protect certain branches, many times the `main` branch will be protected from direct pushes as the `main` branch is what the user is working on. Mistakes pushed to such a branch can be disastrous. To protect your main branch follow the following steps:
+Once done your own forked repository is what you will be working on, make sure to never push anything to the `main` branch so that you can keep updating your fork to the latest changes. 
+
+(OPTIONAL): To remind yourself there is a function in github to protect certain branches, many times the `main` branch will be protected from direct pushes as the `main` branch is what the user is working on. Mistakes pushed to such a branch can be disastrous. To protect your main branch follow the following steps:
 - Go to your forked repository. Something like https://www.github.com/GITHUBNAME/Homework
 - Click on `Settings`
 - In the side menu click on `Branches`
@@ -24,6 +26,7 @@ If your week in the curriculum calls for homework to be handed in, the following
   - `git fetch upstream` to check the latest version
   - `git checkout main` to make sure you are on your main branch
   - `git rebase -Xtheirs upstream/main` to grab the latest version from the HYF Homework repository
+  - `git push` to update the main branch of your forked repo on GitHUb (Remember to remove your branch protection and reenable that if you did that in the setup)
   - `npm install` to make sure any needed packages are installed
 2. Create a new branch `MODULENAME-WEEKNAME`. So for example, the first week of JavaScript should be called `JavaScript-Week1`
 3. Do your homework! Remember that there is a test runner that does some automated testing of your homework, you can find out about that in the `README`.
